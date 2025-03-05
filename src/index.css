@@ -6,8 +6,8 @@
   --color-brown: #53423e;
   --color-lightBrown: #645550;
   --color-darkBrown: #2c2523;
-  --color-black: #1e1917;
-  --color-white: #f1e1d9;
+  --color-black: #212529;
+  --color-white: #f8f9fa;
   --color-cyan: #15d1e9;
   --color-lightCyan: #88e5f0;
   --color-darkCyan: #009fb3;
@@ -15,13 +15,19 @@
   --color-lightOrange: #fac27b;
   --color-darkOrange: #d28422;
   --color-grey: #626965;
-  --color-lightGrey: #978580;
-  --color-darkGrey: #3f4441;
+  --color-lightGrey: #dee2e6;
+  --color-darkGrey: #6c757d;
   --font-body: "Josefin Sans", "sans-serif"; 
   --font-special: "Roboto", "sans-serif";
-  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5)
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-blackShadow: 0px 0px 20px 0px rgba(33, 37, 41, 0.5);
+  --breakpoint-sm: 350px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-xxl: 1536px;
 }
 
 body {
-  @apply bg-darkBrown;
+  @apply bg-black;
 }

@@ -10,7 +10,7 @@ const HeroText = () => {
             Software Engineer
         </h2>
         <h1 className='md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold
-        font-special text-darkGrey'>
+        font-special text-black'>
             Md Taskin Hossain
         </h1>
         <p className='text-lg mt-4 text-darkGrey'>

@@ -1,3 +1,4 @@
+import AboutMeMain from './components/aboutMeSection/aboutMeMain'
 import HeroGradient from './components/heroSection/HeroGradient'
 import HeroMain from './components/heroSection/HeroMain'
 import SubHeroSection from './components/heroSection/SubHeroSection'
@@ -10,6 +11,7 @@ function App() {
       <HeroMain />
       <HeroGradient />
       <SubHeroSection />
+      <AboutMeMain />
     </main>
   )
 }

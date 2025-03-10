@@ -5,7 +5,7 @@ const AboutMeText = () => {
     <div className='flex flex-col md:items-start sm:items-center md:text-left
     sm:text-center'>
         <h2 className='text-6xl text-lightGrey mb-10 cursor-default underline'>About Me</h2>
-        <p className='text-lightGrey cursor-default'>Lorem ipsum dolor sit amet,
+        <p className='text-lightGrey cursor-default'>LLorem ipsum dolor sit amet,
              consectetur adipiscing elit, sed do eiusmod tempor 
              incididunt ut labore et dolore magna aliqua. Ut 
              enim ad minim veniam, quis nostrud exercitation ullamco 

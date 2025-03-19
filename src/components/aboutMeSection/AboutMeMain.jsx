@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutMeText from './aboutMeText'
-import AboutMeImage from './aboutMeImage'
+import AboutMeText from './AboutMeText'
+import AboutMeImage from './AboutMeImage'
 
 const AboutMeMain = () => {
   return (

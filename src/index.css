@@ -36,3 +36,7 @@ body {
   @apply overflow-x-hidden;
   
 }
+
+html {
+  @apply overflow-x-hidden;
+}

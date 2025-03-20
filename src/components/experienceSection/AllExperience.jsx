@@ -7,8 +7,8 @@ const experiences = [
     company:'Infosys Compaz',
     date:'August 2023 - Present', 
     responsibilities:['Implement and optimized ETL processes for data pipelines using Apache Airflow and Spark in new monitoring system database',
-        'Decommission legacy on-call notification monitoring systems and databases, building scalable data pipelines for real-time processing and analysis of large datasets using Spark and AWS services',
-        'Perl Scripting for Common Gateway Interface (CGI) to intergrate in-house applications with PostgreSQL databases, and migrate scripts from Oracle to PostgreSQL',
+        'Decommission legacy on-call notification monitoring systems and databases',
+        'Perl Scripting for Common Gateway Interface (CGI) to intergrate applications with PostgreSQL databases, and migrate scripts from Oracle to PostgreSQL',
         'Developed and Deployed AI agent/tool with Microsoft Teams Graph API to automatically summarize meetings, extract key decisions, action points, dockerized and notifies participants via Teams bot and Outlook',
         'Implement JavaScript flows to integrate ServiceNow with on-call notification monitoring system and create comprehensive documentation for future users',
         ]
@@ -50,13 +50,13 @@ const AllExperience = () => {
   return (
     <div>
         <h2 className='text-6xl text-lightGrey underline mb-10 items-center justify-between'>Experience</h2>
-        <div className='flex md:flex-row sm:flex-col items-center justify-between'>
+        <div className='flex md:flex-row sm:flex-col items-start justify-between'>
             {experiences.map((experience, index)=>{
                 return (
                 <>
                     <SingleExperience key={index} experience={experience}/>
-                    {index < 3 ? <FaArrowRight className='text-6xl text-orange 
-                    lg:block sm:hidden'/> : ""}
+                    {index < 3 ? <FaArrowRight className='text-6xl text-cyan 
+                    self-center lg:block sm:hidden'/> : ""}
                 </>
                 );
             })}

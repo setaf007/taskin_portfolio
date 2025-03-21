@@ -49,7 +49,7 @@ const experiences = [
 const AllExperience = () => {
   return (
     <div>
-        <h2 className='text-6xl text-lightGrey underline mb-10 items-center justify-between'>Experience</h2>
+        <h2 className='flex flex-col text-6xl text-lightGrey font-bold underline decoration-cyan-500 mb-8 items-center justify-between'>Experience</h2>
         <div className='flex md:flex-row sm:flex-col items-start justify-between'>
             {experiences.map((experience, index)=>{
                 return (

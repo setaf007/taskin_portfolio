@@ -9,6 +9,7 @@ import NavbarMain from './components/navbar/NavbarMain'
 import ProjectMain from './components/projectSection/ProjectMain'
 import SkillsMain from './components/skillsSection/SkillsMain'
 import SubSkills from './components/skillsSection/SubSkills'
+import ContactMeMain from './components/contactMeSection/ContactMeMain'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ExperienceMain />
       <Divider />
       <ProjectMain />
+      <ContactMeMain />
       <HelperSection />
     </main>
   )

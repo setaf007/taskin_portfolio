@@ -48,7 +48,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Your name"
           required
-          className="h-12 px-4 rounded-lg bg-lightGrey placeholder:text-gray-400"
+          className="h-12 px-4 rounded-lg bg-lightGrey text-black placeholder:text-gray-400"
           value={name}
           onChange={handleName}
         />
@@ -57,16 +57,16 @@ const ContactForm = () => {
           type="email"
           placeholder="Your email"
           required
-          className="h-12 px-4 rounded-lg bg-lightGrey placeholder:text-gray-400"
+          className="h-12 px-4 rounded-lg bg-lightGrey text-black placeholder:text-gray-400"
           value={email}
           onChange={handleEmail}
         />
         <textarea
-          name="message"
+          name="from_message"
           placeholder="Message"
           rows="6"
           required
-          className="rounded-lg bg-lightGrey p-4 placeholder:text-gray-400"
+          className="rounded-lg bg-lightGrey text-black p-4 placeholder:text-gray-400"
           value={message}
           onChange={handleMessage}
         />

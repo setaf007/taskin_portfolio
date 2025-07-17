@@ -26,7 +26,7 @@ const ProjectMain = () => {
         : myProjects;
 
     return (
-        <div id="project" className="container mx-auto py-16 px-4 sm:px-6">
+        <div id="projects" className="container mx-auto py-16 px-4 sm:px-6">
             <div className="flex flex-col items-center mt-24 cursor-default">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold underline decoration-cyan-500 text-white mb-6 text-center">
                     My Projects
@@ -34,9 +34,11 @@ const ProjectMain = () => {
 
                 <ProjectFilter onTechChange={handleTechChange} selectedTech={selectedTech} />
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-6 w-full">
                     {filteredProjects.map((project, index) => (
-                        <ProjectCard key={index} title={project.title} description={project.description} url={project.url} tech={project.tech} />
+                        <div key={index} className="w-full flex">
+                            <ProjectCard title={project.title} description={project.description} url={project.url} tech={project.tech} />
+                        </div>
                     ))}
                 </div>
             </div>

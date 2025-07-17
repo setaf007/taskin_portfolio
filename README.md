@@ -1,12 +1,32 @@
-# React + Vite
+# 🖥️ Md Taskin Hossain — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A sleek, modern, and fully responsive portfolio website built with React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Clean, modern UI and smooth animations
+- Responsive design for all devices
+- About Me, Skills, Experience, Projects, and Contact sections
+- Project filtering and interactive cards
+- EmailJS-powered contact form
+- Fast performance with Vite
+- Easy to customize and extend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [EmailJS](https://www.emailjs.com/) (for contact form)
+
+---
+
+## 📸 Preview
+
+![Portfolio Screenshot](public/images/website-preview.jpg)
+
+---

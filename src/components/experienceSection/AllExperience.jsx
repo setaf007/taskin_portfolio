@@ -50,7 +50,10 @@ const experiences = [
 const AllExperience = () => {
   return (
     <div>
-        <h2 className='flex flex-col text-6xl text-lightGrey font-bold underline decoration-cyan-500 mb-8 items-center justify-between'>Experience</h2>
+        <h2 className='text-4xl sm:text-5xl font-bold text-lightGrey flex items-center gap-4 mb-8 cursor-default justify-center'>
+          <span className='inline-block w-2 h-8 bg-cyan-400 rounded-full'></span>
+          Experience
+        </h2>
         <div className='flex md:flex-row sm:flex-col sm:items-center md:items-start justify-between'>
             {experiences.map((experience, index)=>{
                 return (

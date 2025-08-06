@@ -1,21 +1,7 @@
 import React, { useState } from 'react';
 import ProjectFilter from './ProjectFilter';
 import ProjectCard from './ProjectCard';
-
-const myProjects = [
-    {
-        title: "AI Image Classifier",
-        description: "A deep learning project using TensorFlow and Python.",
-        url: "https://github.com/yourusername/ai-image-classifier",
-        tech: "AI, Machine Learning, Python",
-    },
-    {
-        title: "Web Scraping Tool",
-        description: "A web scraping tool built with Python to gather data.",
-        url: "https://github.com/yourusername/web-scraping-tool",
-        tech: "Python, Web Scraping",
-    },
-];
+import myProjects from './projectsData';
 
 const ProjectMain = () => {
     const [selectedTech, setSelectedTech] = useState('');
@@ -28,8 +14,9 @@ const ProjectMain = () => {
     return (
         <div id="projects" className="container mx-auto py-16 px-4 sm:px-6">
             <div className="flex flex-col items-center mt-24 cursor-default">
-                <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold underline decoration-cyan-500 text-white mb-6 text-center">
-                    My Projects
+                <h2 className="text-4xl sm:text-5xl font-bold text-lightGrey flex items-center gap-4 mb-8 cursor-default justify-center">
+                  <span className="inline-block w-2 h-8 bg-cyan-400 rounded-full"></span>
+                  My Projects
                 </h2>
 
                 <ProjectFilter onTechChange={handleTechChange} selectedTech={selectedTech} />

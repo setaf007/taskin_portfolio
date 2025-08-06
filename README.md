@@ -27,6 +27,6 @@
 
 ## 📸 Preview
 
-![Portfolio Screenshot](public/images/website-preview.jpg)
+![Portfolio Screenshot](public/images/website-preview.png)
 
 ---

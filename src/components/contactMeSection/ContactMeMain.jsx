@@ -8,7 +8,8 @@ const ContactMeMain = () => {
       id='contact'
       className='max-w-[1200px] mx-auto items-center justify-center mt-[100px] px-4 cursor-default'
     >
-      <h2 className='text-6xl text-white font-bold text-center mb-10 underline decoration-cyan-500'>
+      <h2 className='text-4xl sm:text-5xl font-bold text-lightGrey flex items-center gap-4 mb-8 cursor-default justify-center'>
+        <span className='inline-block w-2 h-8 bg-cyan-400 rounded-full'></span>
         Contact Me
       </h2>
       <div

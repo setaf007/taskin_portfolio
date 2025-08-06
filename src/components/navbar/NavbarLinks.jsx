@@ -17,9 +17,16 @@ const NavbarLinks = () => {
     backdrop-blur-lg lg:bg-transparent sm:w-full py-4 transition-all duration-300'>
       {links.map((link, index)=>{
         return <li key={index} className='group'>
-          <Link to={link.section} smooth={true} spy={true} 
-          duration={500} offset={-130} className='cursor-pointer text-black
-           hover:text-cyan transition-all duration-300'>{link.link}</Link>
+          <Link
+            to={link.section}
+            smooth={true}
+            spy={true}
+            duration={500}
+            offset={-130}
+            className='cursor-pointer text-black font-medium px-3 py-1 rounded-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400'
+          >
+            {link.link}
+          </Link>
           <div className='mx-auto bg-darkGrey w-0 group-hover:w-full
           h-[1px] transition-all duration-300'></div>
         </li>

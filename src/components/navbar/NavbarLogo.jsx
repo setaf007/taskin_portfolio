@@ -3,14 +3,13 @@ import React from 'react'
 const NavbarLogo = () => {
   return (
     <div>
-      <h1 className='text-black text-2xl sm:hidden md:block font-semibold
-      cursor-default'>
+      {/* Full name for desktop */}
+      <h1 className='text-2xl md:block sm:hidden font-bold tracking-tight text-black cursor-default'>
         Md Taskin Hossain
       </h1>
-      <h1 className='text-black font-special font-extrabold text-4xl
-      sm:block md:hidden'>
+      <span className='sm:block md:hidden font-special font-extrabold text-4xl tracking-widest text-black drop-shadow-md'>
         MDTH
-      </h1>
+      </span>
     </div>
   )
 }

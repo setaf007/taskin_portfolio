@@ -32,3 +32,5 @@
 ![Portfolio Screenshot](public/images/website-preview.png)
 
 ---
+
+Note: npm run deploy to update. gh-pages workflow established.

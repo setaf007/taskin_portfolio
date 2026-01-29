@@ -2,6 +2,18 @@
 
 const myProjects = [
     {
+        title: "AI Chatbot (Frontend)",
+        description: "AI Chat App built on React + TypeScript. Using local LLM on LMstudio. Login and persistent chats implemented",
+        url: "https://github.com/setaf007/ai-chat-frontend",
+        tech: "React, TypeScript, TailwindCSS, Vite, Python, FastAPI, LMstudio"
+    },
+    {
+        title: "AI Chatbot (API)",
+        description: "AI Chat App built on React + TypeScript. Using local LLM on LMstudio. Login and persistent chats implemented",
+        url: "https://github.com/setaf007/AI_chat_api",
+        tech: "React, TypeScript, TailwindCSS, Vite, Python, FastAPI, LMstudio"
+    },
+    {
         title: "Streamlit Weather Data Visualization App",
         description: "A Streamlit web application for interactive visualization and analysis of weather data from CSV files.",
         url: "https://github.com/setaf007/streamlit_fyp",
